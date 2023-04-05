@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perhitungan kalkulator matematika</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--- Header/navbar --->
+<body>
+	<div class="container">
+		<h1>Welcome To KATIK</h1>
+		<p class="subtitle">
+			Hai Sobat, Selamat datang di Katik:]
+		</p>
+		<p class="subtitle">
+			Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+		</p>
+
+		<header>
+			<nav>
+				<div class="menu">
+					<a href="#" class="menutr"> Segitiga</a>
+					<a href="#"> Jajarangenjang</a>
+				</div>
+			</nav>
+		</header>
+		<!--- Content --->
+		<main>
+			<section id="triangle">
+				<div>
+					<div class="menui">
+						<h2 href="#" class="menutri">Keliling Segitiga</h2>
+					</div>
+						<img src= "segitiga2.jpg" width="200" class="center">
+						<div>
+							<h5>rumus keliling segitiga :</h5>
+							<p class=" subtitle">K = S1 + S2 + S3</p>
+						</div>
+						<div>
+							<h5 class="spasi">dimana : </h5>
+							<h5 class="spasi">S1 = Sisi A</h5>
+							<h5 class="spasi">S2 = Sisi B</h5>
+							<h5 class="spasi">S3 = Sisi C</h5>
+						</div>
+				</div>
+			</section>
+		</main>
+		<div class="menu">
+			<h1 class="menutr2">Hitung Keliling Segitiga</h1>
+		</div>
+		<form>
+			<label for = "sisi-a">Sisi A:</label>
+			<input type="number" id="sisi-a" placeholder="Masukkan nilai sisi A">
+
+			<label for = "sisi-b">Sisi B:</label>
+			<input type="number" id="sisi-b" placeholder="Masukkan nilai sisi B">
+
+			<label for = "sisi-c">Sisi C:</label>
+			<input type="number" id="sisi-c" placeholder="Masukkan nilai sisi C">
+
+			<button type="button" onclick="hitung()">Hitung</button>
+		</form>
+
+		<p id="hasil"></p>
+	</div>
+<!--- footer --->
+	<script src="script.js"></script>
+</body>
+</html>

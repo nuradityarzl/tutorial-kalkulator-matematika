@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perhitungan kalkulator matematika</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--- Header/navbar --->
+<body>
+	<div class="container">
+		<h1>Welcome To KATIK</h1>
+		<p class="subtitle">
+			Hai Sobat, Selamat datang di Katik:]
+		</p>
+		<p class="subtitle">
+			Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+		</p>
+
+		<header>
+			<nav>
+				<div class="menu">
+					<a href="#" > Segitiga</a>
+					<a href="#" class="menutr"> Jajar genjang</a>
+				</div>
+			</nav>
+		</header>
+		<!--- Content --->
+		<main>
+			<section id="paralellogram">
+				<div>
+					<div class="menui">
+						<h2 href="#" class="menutri">Luas Jajar Genjang</h2>
+					</div>
+						<img src= "images.png" width="200" class="center">
+						<div>
+							<h5>rumus luas Jajar Genjang :</h5>
+							<p class=" subtitle">L = A x T</p>
+						</div>
+						<div>
+							<h5 class="spasi">dimana : </h5>
+							<h5 class="spasi">L = Luas</h5>
+							<h5 class="spasi">A = Alas</h5>
+							<h5 class="spasi">T = Tinggi</h5>
+						</div>
+				</div>
+			</section>
+		</main>
+		<div class="menu">
+			<h1 class="menutr2">Hitung luas Jajar Genjang</h1>
+		</div>
+		<form>
+			<label>Alas:</label>
+			<input type="number" id="alas" placeholder="Masukkan nilai alas">
+
+			<label>Tinggi:</label>
+			<input type="number" id="tinggi" placeholder="Masukkan nilai tinggi">
+
+			<button type="button" id="hitung" onclick="hitungLuas()">Hitung</button>
+		</form>
+
+		<div id="hasil"></div>
+	</div>
+<!--- footer --->
+	<script src="script.js"></script>
+</body>
+</html>

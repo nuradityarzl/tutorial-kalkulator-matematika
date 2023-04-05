@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perhitungan kalkulator matematika</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--- Header/navbar --->
+<body>
+	<div class="container">
+		<h1>Welcome To KATIK</h1>
+		<p class="subtitle">
+			Hai Sobat, Selamat datang di Katik:]
+		</p>
+		<p class="subtitle">
+			Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+		</p>
+
+		<header>
+			<nav>
+				<div class="menu">
+					<a href="#" > Segitiga</a>
+					<a href="#" class="menutr"> Jajar genjang</a>
+				</div>
+			</nav>
+		</header>
+		<!--- Content --->
+		<main>
+			<section id="Paralellogram">
+				<div class="card">
+				<div>
+					<div class="menui">
+						<h2 href="#" class="menutri">Keliling Jajar Genjang</h2>
+					</div>
+						<img src= "images.png" width="200" class="center">
+						<div>
+							<h5>rumus keliling Jajar Genjang :</h5>
+							<p class=" subtitle"> K = 2 x (S1 + S2)</p>
+						</div>
+						<div>
+							<h5 class="spasi">dimana : </h5>
+							<h5 class="spasi">K = keliling : </h5>
+							<h5 class="spasi">S1 = Sisi A</h5>
+							<h5 class="spasi">S2 = Sisi B</h5>
+						</div>
+				</div>
+			
+		</main>
+		<div class="menu">
+			<h1 class="menutr2">Hitung Keliling Jajar Genjang</h1>
+		</div>
+		<form>
+			<label for = "sisi-a">Sisi A:</label>
+			<input type="number" id="sisi-a" placeholder="Masukkan nilai sisi A">
+
+			<label for = "sisi-b">Sisi B:</label>
+			<input type="number" id="sisi-b" placeholder="Masukkan nilai sisi B">
+
+			<button type="button" onclick="hitung()">Hitung</button>
+		</form>
+		</div>
+	</section>
+
+		<p id="hasil"></p>
+	</div>
+<!--- footer --->
+	<script src="script.js"></script>
+</body>
+</html>
